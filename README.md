@@ -1,4 +1,4 @@
 # cv
 for lab7
 first change
-[my github] ([https:://GITHUB-FELIXPURLAN.github.io/cv/cv](https://github.com/FelixPurlan/cv))
+[my github](https://github.com/FelixPurlan/cv)
