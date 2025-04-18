@@ -1,4 +1,4 @@
 # cv
 for lab7
 first change
-FelixPurlan.github.io/cv/cv
+https:://GITHUB-FELIXPURLAN.github.io/cv/cv
