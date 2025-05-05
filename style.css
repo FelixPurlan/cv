@@ -11,10 +11,19 @@ body {
 * {
     box-sizing: border-box;
 }
-
+.lfe {
+    justify-content: left;
+}
 .main-footer {
 
 }
+
+img[src="assets/photo_5240331272373531614_y.jpg"] {
+    width: 200px;        
+    height: 200px;
+    object-fit: cover;
+}
+
 
 @media (max-width: 768px) {
     .section {
