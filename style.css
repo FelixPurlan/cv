@@ -1,12 +1,12 @@
 body {
     font-family: "Roboto", sans-serif;
-    border: 1px solid red;
     min-height: 100vh ;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-width: 800px;
 }
 * {
     box-sizing: border-box;
@@ -41,6 +41,10 @@ img[src="assets/photo_5240331272373531614_y.jpg"] {
     width: 50%;
   }
 
+  .section-contacts-title {
+    align-items:start
+  }
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -53,11 +57,7 @@ img[src="assets/photo_5240331272373531614_y.jpg"] {
     align-items: center;
 }
 
-.nav-link {
-    padding: 0 20px;
-    line-height: 50px;
-    transition: .3s;
-}
+
 
 html {
     scroll-behavior: smooth;
