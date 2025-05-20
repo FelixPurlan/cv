@@ -6,7 +6,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 800px;
 }
 * {
     box-sizing: border-box;

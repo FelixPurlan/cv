@@ -1,21 +1,26 @@
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
+    background-image: url("assets/cv-background.png");
     font-family: "Roboto", sans-serif;
     min-height: 100vh ;
     margin: 0;
     padding: 0;
     justify-content: space-between;
-    max-width: 1000px;   
 }
 
-img[src="cv/assets/photo_5240331272373531614_y.jpg"] {
-    margin-left: 100px;
-    margin-top: 50px;
-    width: 200px;        
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
+.image {
+    margin-top: 200px;
+    margin-left: 200px;
+    width: 250px;
+    height: 250px;
 }
+img[src="assets/photo_5240331272373531614_y.jpg"] {
+    border-radius: 50%;
+    }
 main {
     display: flex;
     flex-direction: row;
@@ -23,17 +28,17 @@ main {
 
 .title {
     min-height: 300px;
-    min-width: 1000px;
-    margin-top: 0px;
-    padding: 0;
-    border: 1px solid red;
+    min-width: 800px;
+    max-width: 1000px;
+    margin: 0px;
     display: flex;
     flex-direction: row;
 }
 
 .info {
-    margin-left: 150px;
     margin-top: 100px;
+    margin-left: 0px;
+    min-width: 550px;
 }
 
 .left-info {
@@ -43,7 +48,6 @@ main {
     justify-content: space-between;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
 }
 
 .right-info {
@@ -53,6 +57,5 @@ main {
     justify-content: space-between;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
 }
 
