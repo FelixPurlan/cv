@@ -9,7 +9,7 @@ html {
 
 body {
     background-image: url("assets/cv-background.png");
-    background-size:contain; /* или contain */
+    background-size:100% 100%; /* или contain */
     background-repeat: no-repeat;
     background-position: middle;
     background-attachment: scroll; /* или scroll */
