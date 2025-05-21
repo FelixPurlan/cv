@@ -25,11 +25,6 @@ img[src="assets/photo_5240331272373531614_y.jpg"] {
 }
 
 
-@media (max-width: 768px) {
-    .section {
-      width: 100%;
-    }
-  }
 
 .main-container {
     display: flex;

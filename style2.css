@@ -4,58 +4,26 @@ html {
 }
 
 body {
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-image: url("assets/cv-background.png");
     font-family: "Roboto", sans-serif;
-    min-height: 100vh ;
+    min-height: 165vh ;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    font-size: 14px;
 }
 
-.image {
-    margin-top: 200px;
-    margin-left: 200px;
-    width: 250px;
-    height: 250px;
-}
-img[src="assets/photo_5240331272373531614_y.jpg"] {
-    border-radius: 50%;
-    }
+
+
 main {
-    display: flex;
-    flex-direction: row;
+
 }
 
-.title {
-    min-height: 300px;
-    min-width: 800px;
-    max-width: 1000px;
-    margin: 0px;
-    display: flex;
-    flex-direction: row;
-}
-
-.info {
-    margin-top: 100px;
-    margin-left: 0px;
-    min-width: 550px;
-}
-
-.left-info {
-    min-width: 400px;
-    margin: 0;
-    padding: 0;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: column;
-}
-
-.right-info {
-    min-width: 600px;
-    margin: 0;
-    padding: 0;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: column;
-}
+* {
+    box-sizing: border-box;
+  }
 
