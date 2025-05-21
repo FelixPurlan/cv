@@ -4,18 +4,83 @@ html {
 }
 
 body {
-    background-size: 100%;
-    background-repeat: no-repeat;
     background-image: url("assets/cv-background.png");
+    background-size:auto; /* или contain */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll; /* или scroll */
     font-family: "Roboto", sans-serif;
-    min-height: 165vh ;
+    min-height: 165vh;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     font-size: 14px;
+    width: 100%;
+    overflow-x: hidden; /* Запрет горизонтального скролла */
 }
+
+.name-image-and-desc {
+    position: relative;
+    bottom: 28ex;
+    left: 10ex;
+}
+
+.name {
+    position: relative;
+    left: 22ex;
+    bottom: 15ex;
+    font-size: 42px;
+}
+.job {
+    font-size: 38px;
+    position: relative;
+    left: 26ex;
+    bottom: 18ex;
+}
+
+.profile-image {
+position: relative;
+top: 5ex;
+}
+
+.about {
+    position: relative;
+    left: 44ex;
+    bottom: 30ex;
+    font-size: 24px;
+}
+
+.about-text {
+    position: relative;
+    max-width: 45ex;
+    font-size: 24px;
+    left: 25ex;
+    bottom: 30ex;
+}
+
+.aside {
+    width: 100%;
+    max-width: 1200px; /* Максимальная ширина контента */
+    margin: 0 auto; /* Центрирование */
+    padding: 0 20px; /* Отступы по бокам */
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .aside {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .aside-number, .aside-github {
+        margin: 10px 0;
+    }
+}
+
+
 
 
 
