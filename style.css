@@ -11,7 +11,7 @@ body {
     background-image: url("assets/cv-background.png");
     background-size:contain; /* или contain */
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: middle;
     background-attachment: scroll; /* или scroll */
     font-family: "Roboto", sans-serif;
     min-height: 100vh;
