@@ -11,6 +11,7 @@ body {
     background-attachment: scroll; /* или scroll */
     font-family: "Roboto", sans-serif;
     min-height: 165vh;
+    max-width: fit-content;
     margin: 0;
     padding: 0;
     display: flex;
@@ -23,7 +24,7 @@ body {
 
 .name-image-and-desc {
     position: relative;
-    bottom: 28ex;
+    bottom: 22ex;
     left: 10ex;
 }
 
@@ -42,7 +43,7 @@ body {
 
 .profile-image {
 position: relative;
-top: 5ex;
+top: 10ex;
 }
 
 .about {
@@ -60,13 +61,29 @@ top: 5ex;
     bottom: 30ex;
 }
 
+.hobbies {
+    position: relative;
+    left: 10ex;
+    bottom: 40ex;
+    font-size: 24px;
+}
+
 .aside {
-    width: 100%;
-    max-width: 1200px; /* Максимальная ширина контента */
-    margin: 0 auto; /* Центрирование */
-    padding: 0 20px; /* Отступы по бокам */
-    display: flex;
-    justify-content: space-between;
+    position: relative;
+    bottom: 45ex;
+    left: 30ex;
+    font-size: 24px;
+}
+
+.links-number {
+    position: relative;
+    left: 5ex;
+}
+
+.links-github {
+    position: relative;
+    bottom: 4ex;
+    right: 18ex;
 }
 
 @media (max-width: 768px) {
