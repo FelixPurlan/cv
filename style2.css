@@ -22,9 +22,18 @@ body {
     overflow-x: hidden; /* Запрет горизонтального скролла */
 }
 
-.main {
-
+.first-window-title {
+    position: relative;
+    top: 13ex;
+    left: 10ex;
 }
+
+.second-window-title {
+    position: relative;
+    top: 69ex;
+    left: 10ex;
+}
+
 
 .name-image-and-desc {
     position: relative;
@@ -75,7 +84,7 @@ left: 1ex;
 
 .aside {
     position: relative;
-    bottom: 73ex;
+    bottom: 77ex;
     left: 30ex;
     font-size: 24px;
 }
@@ -146,6 +155,10 @@ top: 5ex;
     bottom: 25ex;
 }
 
+.english {
+    position: relative;
+    left: 20ex;
+}
 
 main {
 
