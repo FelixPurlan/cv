@@ -7,7 +7,7 @@ body {
     background-image: url("assets/cv-background.png");
     background-size:auto; /* или contain */
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     background-attachment: scroll; /* или scroll */
     font-family: "Roboto", sans-serif;
     min-height: 165vh;
@@ -20,6 +20,10 @@ body {
     font-size: 14px;
     width: 100%;
     overflow-x: hidden; /* Запрет горизонтального скролла */
+}
+
+.main {
+
 }
 
 .name-image-and-desc {
@@ -70,20 +74,33 @@ top: 10ex;
 
 .aside {
     position: relative;
-    bottom: 45ex;
+    bottom: 49ex;
     left: 30ex;
     font-size: 24px;
 }
 
 .links-number {
     position: relative;
+    top:  6ex;
     left: 5ex;
 }
 
 .links-github {
     position: relative;
-    bottom: 4ex;
+    top: 2ex;
     right: 18ex;
+}
+
+.links-Address {
+    position: relative;
+    top:57ex;
+    right: 18ex;
+}
+
+.links-telegram {
+    position: relative;
+    top:53ex;
+    left: 5ex;   
 }
 
 @media (max-width: 768px) {
