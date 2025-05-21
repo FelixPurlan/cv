@@ -3,14 +3,18 @@ html {
     scroll-behavior: smooth;
 }
 
+.header {
+    margin: 0;
+}
+
 body {
     background-image: url("assets/cv-background.png");
-    background-size:auto; /* или contain */
+    background-size:cover; /* или contain */
     background-repeat: no-repeat;
     background-position: left;
     background-attachment: scroll; /* или scroll */
     font-family: "Roboto", sans-serif;
-    min-height: 165vh;
+    min-height: 100vh;
     max-width: fit-content;
     margin: 0;
     padding: 0;
@@ -24,7 +28,7 @@ body {
 
 .first-window-title {
     position: relative;
-    top: 13ex;
+    top: 7ex;
     left: 10ex;
 }
 
@@ -37,8 +41,8 @@ body {
 
 .name-image-and-desc {
     position: relative;
-    top: 20ex;
-    left: 10ex;
+    top: 5ex;
+    left: 15ex;
 }
 
 .name {
@@ -71,7 +75,7 @@ left: 1ex;
     position: relative;
     max-width: 45ex;
     font-size: 24px;
-    left: 25ex;
+    left: 28ex;
     bottom: 30ex;
 }
 
@@ -84,7 +88,7 @@ left: 1ex;
 
 .aside {
     position: relative;
-    bottom: 77ex;
+    bottom: 78ex;
     left: 30ex;
     font-size: 24px;
 }
@@ -92,7 +96,7 @@ left: 1ex;
 .links-number {
     position: relative;
     top:  6ex;
-    left: 5ex;
+    left: 8ex;
 }
 
 .links-github {
@@ -103,14 +107,14 @@ left: 1ex;
 
 .links-Address {
     position: relative;
-    top:57ex;
+    top:63ex;
     right: 18ex;
 }
 
 .links-telegram {
     position: relative;
-    top:53ex;
-    left: 5ex;   
+    top:59ex;
+    left: 8ex;   
 }
 
 @media (max-width: 768px) {
