@@ -28,7 +28,7 @@ body {
 
 .name-image-and-desc {
     position: relative;
-    bottom: 22ex;
+    top: 20ex;
     left: 10ex;
 }
 
@@ -48,6 +48,7 @@ body {
 .profile-image {
 position: relative;
 top: 10ex;
+left: 1ex;
 }
 
 .about {
@@ -68,13 +69,13 @@ top: 10ex;
 .hobbies {
     position: relative;
     left: 10ex;
-    bottom: 40ex;
+    bottom: 15ex;
     font-size: 24px;
 }
 
 .aside {
     position: relative;
-    bottom: 49ex;
+    bottom: 73ex;
     left: 30ex;
     font-size: 24px;
 }
@@ -115,7 +116,35 @@ top: 10ex;
 }
 
 
+.second-window {
+    max-width: 25ex;
+    font-size: 28px;
+    position: relative;
+    left: 10ex;
+    top: 10ex;
+}
 
+.skills {
+ position: relative;
+ top: 3ex;
+}
+
+.code-example {
+position: relative;
+top: 5ex;
+}
+
+.courses  {
+    position: relative;
+    left: 30ex;
+    bottom: 25ex;
+}
+
+.education {
+    position: relative;
+    left: 30ex;
+    bottom: 25ex;
+}
 
 
 main {
