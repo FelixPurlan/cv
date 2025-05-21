@@ -7,6 +7,8 @@ html {
     margin: 0;
 }
 
+/* ИИ был использован только для помощи */
+
 body {
     background-image: url("assets/cv-background.png");
     background-size:100% 100%; /* или contain */
